@@ -3,10 +3,9 @@
 try:
     import json, os, platform, time, discord
 except Exception:
-    if platform.system() == "Windows": os.system("cls")
-    else: os.system("clear")
-    print("LinkGen uses Pycord, Try to remove discord.py when installed")
-    time.sleep(3)
+   
+
+
     if platform.system() == "Windows": os.system("cls")
     else: os.system("clear")
     print("Pycord not found - Installing...\n")
